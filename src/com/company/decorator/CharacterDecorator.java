@@ -13,6 +13,6 @@ public class CharacterDecorator implements Character {
 
     @Override
     public String doAnything() {
-        return null;
+        return character.doAnything();
     }
 }
